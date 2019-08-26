@@ -101,6 +101,12 @@ Azure ポータル内のテスト用 Web チャットから QnA ボットの呼�
    テキストエディターを開いて、このコードを貼り付けます。  
    ![Get WebChat Embed Code](./images/03/get_webchat_embed_code.jpg)
 
+   > Web チャットの埋め込みコードは非常に簡単なものです。  
+
+   ```html
+   <iframe src='https://webchat.botframework.com/embed/azureqnaseo201908-bot?s=シークレットを入力'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
+   ```
+
 5. [**シークレットキー**] を一つ [**表示**] させ、キーをコピーします。
 6. テキストエディターに貼り付けた埋め込みコードの "**シークレットを入力**" 部分をシークレットキーで置換します。
 7. 埋め込みコードの HTML を任意の名前で保存します。
