@@ -4,6 +4,8 @@
 
 ここではノンコーディングで、シンプルな Q&A ボットを作ってみます。
 
+![QnA Maker](./images/qnamaker.jpg)
+
 > このコンテンツの実施には、Azure サブスクリプション（[**無償評価版**](https://azure.microsoft.com/ja-jp/free/) でも可）が必要です。
 
 ---
@@ -12,4 +14,4 @@ Q&A ボットの作成は、以下の流れで進めます。
 
 1. [ナレッジベースの作成](./01_createknowledgebase.md)
 2. [ナレッジの学習とテスト](./02_train_and_test_qna.md)
-3. [QnA 学習済みモデルを発行する](./03_publishqnamodel.md) （準備中）
+3. [QnA 学習済みモデルを発行する](./03_publishqnamodel.md)
