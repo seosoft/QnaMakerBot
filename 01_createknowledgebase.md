@@ -27,7 +27,7 @@ Azure ポータルで QnA Service (QnA Maker 用のテンプレートを適用�
 
    |項目|値|
    |---|---|
-   |名前|任意の名前、以下では "AzureQna" + 名前 + 日付 にしています)|
+   |名前|任意の名前、以下では "AzureQna" + 自分の名前 + 日付 にしています)|
    |サブスクリプション|QnA Service を作成するサブスクリプション|
    |価格レベル|ハンズオンでは "F0" (選択可能な場合)|
    |リソースグループ|任意|
@@ -69,7 +69,7 @@ QnA Maker ポータルに戻って、今作った QnA Service に接続します
    - Azure subscription name
    - Azure Qna Service
 
-3. ナレッジベースの名前を入力します。（任意の値、以下では "Oly"）  
+3. ナレッジベースの名前を入力します。（任意の値、以下では "AzureQna"）  
    ![Name Knowledge base](./images/01/name_kb.jpg)
 
 4. [Populate your KB] に以下の URL を入力して、ナレッジをインポートします。  
@@ -81,7 +81,7 @@ QnA Maker ポータルに戻って、今作った QnA Service に接続します
    > ![Azure Support FAQ Page](./images/01/azure_faq_page.jpg)
 
    > 実務では Q&A の内容は、担当部署が Excel などで管理していることがあると思います。  
-   >UTF-8 の タブ区切り形式で出力して、そのファイルを "Create a knowledge base" でインポートする運用がよいでしょう。
+   >　UTF-8 の タブ区切り形式で出力して、そのファイルを "Create a knowledge base" でインポートする運用がよいでしょう。
 
 5. [**Create** your KB] をクリックして、ナレッジベースを作成します。
 6. ナレッジベースができると、ナレッジベースの "Edit" 画面に自動的に遷移します。  
